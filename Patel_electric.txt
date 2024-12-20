@@ -1,0 +1,10 @@
+Client Login : URL : http://localhost/PATEL/
+
+	Email : dev@134
+	Password : 567
+
+Admin Login  : URL : http://localhost/PATEL/admin/ad_login.php
+ 
+
+	Email : dev@admin
+	password : admin
