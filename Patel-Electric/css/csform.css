@@ -1,0 +1,155 @@
+    /* -----------------------Register--------------------------- */
+
+/* registar */
+
+.register{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.form2 {
+    margin-left: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 1px solid #333;
+  }
+  
+.title2 {
+    font-size: 28px;
+    text-decoration-line: underline;
+   text-decoration: wavy;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+
+    color: #00bfff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .message, 
+  .signin2 {
+    font-size: 16.50px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .gtmh{
+    justify-content: center;
+    align-items: center;
+
+  }
+  .signin2 {
+    text-align: center;
+  }
+  
+  .signin2 a:hover {
+    text-decoration: underline royalblue;
+  }
+  
+  .signin2 a {
+    color: #00bfff;
+  }
+  
+  .flex2 {
+    display: flex;
+    width: 95%;
+    gap: 20px;
+  }
+  
+  .form2 .l2 {
+    position: relative;
+  }
+  
+  .b1 .it1{
+    font-size: xx-large;
+    color: rgba(255, 255, 255, 0.5);
+
+  }
+  .b1{
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .form2 .l2 .input2 {
+    background-color: #333;
+    color: #fff;
+    width: 90%;
+    padding: 30px 05px 05px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form2 .l2 .input2 + span {
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form2 .l2 .input2:placeholder-shown + span {
+    top: 12.5px;
+    font-size: 0.9em;
+  }
+  
+  .form2 .l2 .input2:focus + span,
+  .form2 .l2 .input2:valid + span {
+    color: #00bfff;
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .input2 {
+    font-size: medium;
+    margin-bottom: 6px;
+  }
+  
+  .submit2 { 
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: #fff;
+
+    font-size: 16px;
+    transform: .3s ease;
+    background-color: #00bfff;
+    margin: 10px 20px;
+}
+.fm{
+    display: flex;
+    justify-content: space-between;
+}
+  
+  .submit2:hover {
+    background-color: #00bfff96;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }
